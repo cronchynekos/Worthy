@@ -7,6 +7,7 @@ import {
   NavBtn,
   NavBtnLink
 } from './NavbarElements';
+import "./Navbar.scss"
 
 const Navbar = () => {
   return (
@@ -17,23 +18,26 @@ const Navbar = () => {
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to='/about' activeStyle>
-            About
+        <NavLink to='/tops' activeStyle className="navtextbtn">
+            Tops and Tees
           </NavLink>
-          <NavLink to='/services' activeStyle>
-            Services
+          <NavLink to='/outerwear' activeStyle className="navtextbtn">
+            Outerwear
           </NavLink>
-          <NavLink to='/contact-us' activeStyle>
-            Contact Us
+          <NavLink to='/accessories' activeStyle className="navtextbtn">
+            Accessories
           </NavLink>
-          <NavLink to='/sign-up' activeStyle>
-            Sign Up
+          <NavLink to='/contact-us' activeStyle className="navtextbtn">
+            Support
+          </NavLink>
+          <NavLink to='/about' activeStyle className="navtextbtn">
+            About Us
           </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+          <NavBtnLink to='/cart'>Cart</NavBtnLink>
         </NavBtn>
       </Nav>
     </>

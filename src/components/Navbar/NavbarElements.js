@@ -2,6 +2,7 @@ import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+
 export const Nav = styled.nav`
   background: #000;
   height: 80px;
@@ -14,6 +15,12 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
+  font-family: "Abel", sans-serif;
+  font-weight: 300;
+  font-size: 1.35rem;
+  letter-spacing: 0.025em;
+  line-height: 1.8;
+  padding: 7.5px 15px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -84,3 +91,5 @@ export const NavBtnLink = styled(Link)`
     color: #010606;
   }
 `;
+
+
