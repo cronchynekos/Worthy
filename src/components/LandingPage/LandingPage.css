@@ -21,13 +21,25 @@
 .SecondLayerText {
   position: relative;
   left: 25%;
-  top: 50%;
+  top: 40%;
   text-align: center;
   width: 50%;
 }
 
 .subheading-text {
   font-family: "Abel", sans-serif;
+  font-weight: 100;
+  /* text-decoration: none; */
+  color: black;
+  font-size: 15px;
+  line-height: 2em;
+  letter-spacing: .03rem;
+}
+
+.heading-text {
+  font-family: "Abel", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
 }
 
 .SecondlayerImages{
