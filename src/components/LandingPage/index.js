@@ -111,6 +111,14 @@ const LandingPage = () => {
                 </div>
             </div>
         </div>
+        <div className='BrandLayer'>
+            <h1 className='LandingBrandTitle'>Our Brand</h1>
+            <p className='LandingBrandP'>At Bibisama, we focus on combining beautiful artwork with quality materials. 
+                The result is Asian pop culture-inspired clothing; comfortable to wear at home yet stylish in the streets. 
+                Our products are meticulously crafted, ensuring durability, and serving as a timeless companion.
+            </p>
+            <a href="/about" title="About" className="LandingBrandA">Read Our Story</a>
+        </div>
     </div>
         );
     };

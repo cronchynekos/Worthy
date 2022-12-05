@@ -8,13 +8,16 @@ import {
   NavBtnLink
 } from './NavbarElements';
 import "./Navbar.scss"
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import {fa-cart-shopping} from "fa-icon"
+
 
 const Navbar = () => {
   return (
     <>
       <Nav>
         <NavLink to='/'>
-          <img src='./images/logo.svg' alt='logo' />
+          <img src='./images/logo02.jpg' alt='logo' className='navLogo'/>
         </NavLink>
         <Bars />
         <NavMenu>
@@ -36,6 +39,9 @@ const Navbar = () => {
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
+        {/* <NavLink to='/cart'>
+           <FontAwesomeIcon icon="fa-regular fa-cart-shopping" />
+        </NavLink> */}
         <NavBtn>
           <NavBtnLink to='/cart'>Cart</NavBtnLink>
         </NavBtn>

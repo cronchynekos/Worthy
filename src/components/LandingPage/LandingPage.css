@@ -38,10 +38,54 @@
 
 .heading-text {
   font-family: "Abel", sans-serif;
-  font-weight: 600;
+  font-weight: 550;
   font-size: 30px;
 }
 
 .SecondlayerImages{
   height: 550px;
+}
+
+.navLogo {
+  width: 45px;
+}
+
+.BrandLayer {
+  height: 500px;
+  background-color: #f4f4f4;
+}
+
+.LandingBrandTitle {
+  position: relative;
+  text-align: center;
+  top: 20%;
+  font-family: "Abel", sans-serif;
+  letter-spacing: 0.05rem;
+  font-weight: 450;
+  font-size: 40px;
+}
+
+.LandingBrandP {
+  position: relative;
+  text-align: center;
+  top: 25%;
+  font-family: "Abel", sans-serif;
+  letter-spacing: 0.05rem;
+  font-weight: 450;
+  font-size: 25px;
+  padding-left: 18rem;
+  padding-right: 18rem;
+  line-height: 1.8;
+}
+
+.LandingBrandA {
+  position: relative;
+  left: 45%;
+  top: 30%;
+  font-family: "Abel", sans-serif;
+  letter-spacing: 0.05rem;
+  font-weight: 450;
+  font-size: 30px;
+  line-height: 1.8;
+  color: inherit;
 }
