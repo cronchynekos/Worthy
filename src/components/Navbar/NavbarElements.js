@@ -4,12 +4,14 @@ import styled from 'styled-components';
 
 
 export const Nav = styled.nav`
+  position: sticky;
   background: #292929;
   height: 80px;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);
   z-index: 10;
+  top: 0;
 `;
 
 export const NavLink = styled(Link)`
@@ -32,6 +34,7 @@ export const NavLink = styled(Link)`
 `;
 
 export const Bars = styled(FaBars)`
+
   display: none;
   color: #fff;
   @media screen and (max-width: 768px) {
@@ -46,6 +49,7 @@ export const Bars = styled(FaBars)`
 `;
 
 export const NavMenu = styled.div`
+  // position: sticky;
   display: flex;
   align-items: center;
   margin-right: -24px;
