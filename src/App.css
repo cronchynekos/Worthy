@@ -7,6 +7,14 @@
   padding: 0;
 }
 
+.grandopeningtext {
+  text-align: center;
+}
+
+.grandopeningdiv {
+  background-color: azure;
+  padding: .25rem;
+}
 
 /* .App {
   text-align: center;

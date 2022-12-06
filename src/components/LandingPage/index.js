@@ -17,12 +17,27 @@ const LandingPage = () => {
             rewind: 'true'
         }}> 
             <SplideSlide>
+                <div className='FirstLayerInner'>
+                    <h4 className='FirstLayerh4'>Extreme Corrosion Resistance</h4>
+                    <h2 className='FirstLayerh2'>The Drift</h2>
+                    <a href="/collections"><div className='FirstLayerButton'><h2 className='FirstLayerButtonText'>Shop Now</h2></div></a>
+                </div>
                 <img src="./images/image001.jpg" alt="Image1"/>
             </SplideSlide>
             <SplideSlide>
+                <div className='FirstLayerInner'>
+                    <h4 className='FirstLayerh4'>Extreme Corrosion Resistance</h4>
+                    <h2 className='FirstLayerh2'>The Drift</h2>
+                    <a href="/collections"><div className='FirstLayerButton'><h2 className='FirstLayerButtonText'>Shop Now</h2></div></a>
+                </div>
                 <img src="./images/image002.jpg" alt="Image2"/>
             </SplideSlide>
             <SplideSlide>
+                <div className='FirstLayerInner'>
+                    <h4 className='FirstLayerh4'>Extreme Corrosion Resistance</h4>
+                    <h2 className='FirstLayerh2'>The Drift</h2>
+                    <a href="/collections"><div className='FirstLayerButton'><h2 className='FirstLayerButtonText'>Shop Now</h2></div></a>
+                </div>
                 <img src="./images/image003.jpg" alt="Image3"/>
             </SplideSlide>
         </Splide>
@@ -69,6 +84,11 @@ const LandingPage = () => {
             rewind: 'true'
         }}> 
             <SplideSlide>
+                <div className='FirstLayerInner'>
+                    <h4 className='FirstLayerh4'>Extreme Corrosion Resistance</h4>
+                    <h2 className='FirstLayerh2'>The Drift</h2>
+                    <a href="/collections"><div className='FirstLayerButton'><h2 className='FirstLayerButtonText'>Shop Now</h2></div></a>
+                </div>
                 <img src="./images/image001.jpg" alt="Image1"/>
             </SplideSlide>
             {/* <SplideSlide>

@@ -4,6 +4,51 @@
     object-fit:cover;
   }
 
+.FirstLayerInner{
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  /* background-color: grey; */
+  top: 70%;
+  margin-left: 10rem;
+}
+
+.FirstLayerh2 {
+  font-family: "Abel", sans-serif;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.FirstLayerh4 {
+  font-family: "Abel", sans-serif;
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 0rem;
+}
+
+.FirstLayerButton {
+  position: inherit;
+  background-color: #333333;
+  height: 65px;
+  width: 225px;
+}
+
+.FirstLayerButtonText {
+  font-family: "Abel", sans-serif;
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  padding: .75rem;
+  text-decoration: none;
+}
+
 .LandingSecondLayer {
   display: flex;
   height: 550px;

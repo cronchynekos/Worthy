@@ -12,6 +12,7 @@ import SignUp from './pages/signup';
 function App() {
   return (
     <div>
+      <div className='grandopeningdiv'><p className='grandopeningtext'>Granding Opening Sale! All orders 50% off!!!</p></div>
     <Router>
       <Navbar />
       <Routes>
