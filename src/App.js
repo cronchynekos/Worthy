@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
+// import Navfunction from './components/Navbar';
 import LandingPage from './components/LandingPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages';
@@ -10,6 +11,7 @@ import Contact from './pages/contact';
 import SignUp from './pages/signup';
 
 function App() {
+
   return (
     <div>
       <div className='grandopeningdiv'><p className='grandopeningtext'>Granding Opening Sale! All orders 50% off!!!</p></div>
@@ -23,6 +25,7 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
       </Routes>
     </Router>
+    {/* <Navfunction /> */}
       <LandingPage />
         <footer>
           <div className='Footer'>

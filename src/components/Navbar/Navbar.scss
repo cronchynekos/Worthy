@@ -1,20 +1,28 @@
-/* .navtextbtn:hover {
-    text-decoration: underline;
-  }
-*/
 
-// .nav{
-//     background: #CA3400;
-//     color: #FFF;
-//     display: flex
-// }
+.animatedNavBarpre {
+  position: sticky;
+  background: #292929;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw - 1000px) / 2);
+  z-index: 10;
+  top: 0;
+  transition-duration: .5s;
+}
 
-// .sticky{
-//     position: fixed;
-//     top: 0;
-//     left: 0;
-//     width: 100%
-// }
+.animatedNavBarpost {
+  position: sticky;
+  background: rgb(72, 72, 72);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw - 1000px) / 2);
+  z-index: 10;
+  top: 0;
+  transition-duration: .5s;
+}
+
 
 .navtextbtn:hover {
     position: relative;

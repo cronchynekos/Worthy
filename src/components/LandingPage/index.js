@@ -12,6 +12,7 @@ const LandingPage = () => {
             pagination: false,
             autoplay: true,
             interval: 5000,
+            drag: false,
             speed: 400,
             type: 'loop',
             rewind: 'true'

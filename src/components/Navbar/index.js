@@ -14,17 +14,24 @@ import "./Navbar.scss"
 
 const Navbar = () => {
 
-//   window.scroll(function(){
-//     if(this.scrollTop() > 100){
-//         '.nav'.addClass('sticky')
-//     } else{
-//         '.nav'.removeClass('sticky')
-//     }
-// });
+// var element = document.getElementById("NavigationBar");
+
+// window.addEventListener("scroll", function(event){
+//   var scroll = this.scrollY;
+//   if(scroll > 0) {
+//     element.classList.remove("animatedNavBarpre");
+//     element.classList.add("animatedNavBarpost");
+//     // element.classList.toggle("animatedNavBarpost");
+//   }else{
+//     element.classList.remove("animatedNavBarpost");
+//     element.classList.add("animatedNavBarpre");
+//     // element.classList.toggle("animatedNavBarpre");
+//   }
+// })
 
   return (
     <>
-      <Nav>
+      <Nav id="NavigationBar" className='animatedNavBarpre'>
         <NavLink to='/'>
           <img src='./images/logo02.jpg' alt='logo' className='navLogo'/>
         </NavLink>
@@ -45,16 +52,12 @@ const Navbar = () => {
           <NavLink to='/about' activeStyle className="navtextbtn">
             About Us
           </NavLink>
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
-        {/* <NavLink to='/cart'>
-           <FontAwesomeIcon icon="fa-regular fa-cart-shopping" />
-        </NavLink> */}
         <NavBtn>
           <NavBtnLink to='/cart'>Cart</NavBtnLink>
         </NavBtn>
       </Nav>
+
     </>
   );
 };
