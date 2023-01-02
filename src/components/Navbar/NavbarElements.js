@@ -17,7 +17,7 @@ export const Nav = styled.nav`
 export const NavLink = styled(Link)`
   font-family: "Abel", sans-serif;
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   letter-spacing: 0.025em;
   line-height: 1.8;
   padding: 7.5px 15px;

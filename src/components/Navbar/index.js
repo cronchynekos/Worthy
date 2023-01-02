@@ -38,19 +38,22 @@ const Navbar = () => {
         <Bars />
         <NavMenu>
         <NavLink to='/tops' activeStyle className="navtextbtn">
-            Tops and Tees
+            Home
           </NavLink>
           <NavLink to='/outerwear' activeStyle className="navtextbtn">
-            Outerwear
+            Shop
           </NavLink>
           <NavLink to='/accessories' activeStyle className="navtextbtn">
-            Accessories
+            Lookbook
           </NavLink>
           <NavLink to='/contact-us' activeStyle className="navtextbtn">
-            Support
+            FAQ
           </NavLink>
           <NavLink to='/about' activeStyle className="navtextbtn">
             About Us
+          </NavLink>
+          <NavLink to='/about' activeStyle className="navtextbtn">
+            Contact
           </NavLink>
         </NavMenu>
         <NavBtn>
