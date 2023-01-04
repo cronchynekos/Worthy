@@ -46,7 +46,7 @@ const Navbar = () => {
           <NavLink to='/accessories' activeStyle className="navtextbtn">
             Lookbook
           </NavLink>
-          <NavLink to='/contact-us' activeStyle className="navtextbtn">
+          <NavLink to='/contact' activeStyle className="navtextbtn">
             FAQ
           </NavLink>
           <NavLink to='/about' activeStyle className="navtextbtn">
