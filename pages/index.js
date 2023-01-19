@@ -15,7 +15,8 @@ const LandingPage = () => {
             drag: false,
             speed: 400,
             type: 'loop',
-            rewind: 'true'
+            rewind: 'true',
+            height: 800
         }}> 
             <SplideSlide>
                 <div className='FirstLayerInner'>
@@ -23,7 +24,7 @@ const LandingPage = () => {
                     <h2 className='FirstLayerh2'>The Drift</h2>
                     <a href="./shop"><div className='FirstLayerButton'><h2 className='FirstLayerButtonText'>Shop Now</h2></div></a>
                 </div>
-                <img src="./images/image001.jpg" alt="Image1"/>
+                <img src="./images/frontpage1.webp" alt="Image1"/>
             </SplideSlide>
             <SplideSlide>
                 <div className='FirstLayerInner'>
@@ -31,16 +32,16 @@ const LandingPage = () => {
                     <h2 className='FirstLayerh2'>The Drift</h2>
                     <a href="./shop"><div className='FirstLayerButton'><h2 className='FirstLayerButtonText'>Shop Now</h2></div></a>
                 </div>
-                <img src="./images/image002.jpg" alt="Image2"/>
+                <img src="./images/frontpage6.jpg" alt="Image2"/>
             </SplideSlide>
-            <SplideSlide>
+            {/* <SplideSlide>
                 <div className='FirstLayerInner'>
                     <h4 className='FirstLayerh4'>Extreme Corrosion Resistance</h4>
                     <h2 className='FirstLayerh2'>The Drift</h2>
                     <a href="./shop"><div className='FirstLayerButton'><h2 className='FirstLayerButtonText'>Shop Now</h2></div></a>
                 </div>
-                <img src="./images/image003.jpg" alt="Image3"/>
-            </SplideSlide>
+                <img src="./images/frontpage3.jpg" alt="Image3"/>
+            </SplideSlide> */}
         </Splide>
         <div className="LandingSecondLayer">
             <div className="SecondLayerLeft">
@@ -48,7 +49,7 @@ const LandingPage = () => {
                     <h4 class="subheading-text">SLIM PROFILE ∽ DEEP CARRY</h4>
                     <h1 class="heading-text">COMFORT</h1>
                     <p> 
-                        <a href="/collections/the-chase" title="THE CHASE" class="subheading-text">The Chase rides comfortably in the pocket.</a>
+                        <a href="/shop" title="THE CHASE" class="subheading-text">The Chase rides comfortably in the pocket.</a>
                     </p>
                 </div>
             </div>
@@ -64,11 +65,11 @@ const LandingPage = () => {
                     height: 550
                 }}> 
                     <SplideSlide>
-                        <img src="./images/image004.jpg" alt="Image1"/>
+                        <img src="./images/frontpage3.jpg" alt="Image1"/>
                     </SplideSlide>
-                    <SplideSlide>
+                    {/* <SplideSlide>
                         <img src="./images/image005.jpg" alt="Image2"/>
-                    </SplideSlide>
+                    </SplideSlide> */}
                     {/* <SplideSlide>
                         <img src="./images/image003.jpg" alt="Image3"/>
                     </SplideSlide> */}
@@ -90,7 +91,7 @@ const LandingPage = () => {
                     <h2 className='FirstLayerh2'>The Drift</h2>
                     <a href="/collections"><div className='FirstLayerButton'><h2 className='FirstLayerButtonText'>Shop Now</h2></div></a>
                 </div>
-                <img src="./images/image001.jpg" alt="Image1"/>
+                <img src="./images/frontpage4.webp" alt="Image1"/>
             </SplideSlide>
             {/* <SplideSlide>
                 <img src="./images/image002.jpg" alt="Image2"/>
@@ -118,7 +119,7 @@ const LandingPage = () => {
                         <img src="./images/image005.jpg" alt="Image2"/>
                     </SplideSlide> */}
                     <SplideSlide>
-                        <img src="./images/image003.jpg" alt="Image3"/>
+                        <img src="./images/frontpage5.webp" alt="Image3"/>
                     </SplideSlide>
                 </Splide>
             </div>

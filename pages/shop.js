@@ -8,7 +8,9 @@ const Home = ({ products, bannerData }) => (
     <HeroBanner heroBanner={bannerData.length && bannerData[0]}  />
     <div className="products-heading">
       <h2>Best Seller Products</h2>
-      <p>speaker There are many variations passages</p>
+      <p>These Japanese streetwear clothing styles are perfect for men and women who want to make a statement. <br/>
+      From playful to explosive designs, you can find something for any mood and occasion. 
+      Impress your friends with original anime shirts they’ve never seen, but definitely want!</p>
     </div>
 
     <div className="products-container">

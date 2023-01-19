@@ -12,7 +12,7 @@ setTimeout(() => {
     
     window.addEventListener("scroll", function(event){
       var scroll = this.scrollY;
-      if(scroll > 0) {
+      if(scroll > 0) { //Can also use the toggle function here
         element.classList.remove("animatedNavBarpre");
         element.classList.add("animatedNavBarpost");
       }else{
