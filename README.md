@@ -1,5 +1,6 @@
 <h1>Worthy is a clothing ecommerce project</h1>
 <p>Currently a work in progress</p>
+<p>Images used are placeholders</p>
 
 <p>Some technologies used: React, Sanity, Splidejs, Stripe, Sass, Nextjs etc</p>
 
